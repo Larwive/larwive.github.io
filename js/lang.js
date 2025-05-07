@@ -16,6 +16,8 @@ async function updateText(lang) {
 
     toggleButton.textContent = lang === "en" ? "EN" : "FR";
     localStorage.setItem("lang", lang);
+
+    generateTOC();
 }
 
 toggleButton.addEventListener("click", () => {

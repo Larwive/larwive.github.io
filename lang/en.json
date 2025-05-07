@@ -1,6 +1,66 @@
 {
     "menuHome": "Home",
     "menuGames": "Games",
-    "menuContact": "Contact",
-    "title": "Welcome to my page."
+    "menuTools": "Tools",
+    "title": "Welcome to my page.",
+    "tocTitle": "Table of content",
+
+    "section-0": "Timeline",
+    "section-1": "Contact",
+
+    "filter-all": "All",
+    "filter-work": "Work",
+    "filter-education": "Education",
+    "filter-personal": "Personal",
+    "filter-ai": "AI",
+    "filter-hpc": "HPC (High Performance Computing)",
+
+    "now": "Now",
+
+    "asahiTimelineTitle": "Contribution to Asahi linux's documentation (2025-Now)",
+    "asahiTimelineDesc": "Verification of documentation's articles and correction.",
+
+    "inriaTimelineTitle": "Internship, graduation project at Inria",
+    "inriaTimelineDesc": "Inverse model study of the appearance of thin film stacks with Transformers models.",
+
+    "hpcprojectTimelineTitle": "High-Performance Matrix Multiplication & LU-Factorization: Vectorized, Multicore, Distributed & GPU-Accelerated",
+    "hpcprojectTimelineDesc": "Optimization of HPC kernels for in-memory dense double precision matrix-matrix multiplication (DGEMM) and LU factorization (DGETRF). The optimizations were done at multiple levels. Vectorization with AVX2 and FMA instructions, multicore with OpenMP, distributed computation with MPI and GPU acceleration with CUDA.",
+
+    "visualgoTimelineTitle": "Visualgo, a step-by-step Python algorithm visualizer",
+    "visualgoTimelineDesc": "A web application running Python code step by step to teach Python with visualization of data structures (chained lists, arrays, trees, variables, ...).",
+
+    "gccTimelineTitle": "Event coordinator at GCC (Enseirb-Matmeca's Game Creation Club)",
+    "gccTimelineDesc": "Reponsible for events occuring during the 2023-2024 school year, help in game engine trainings (Godot, Unity, Unreal Engine).",
+
+    "lablabTimelineTitle": "Lablab Vertex AI Hackathon",
+    "lablabTimelineDesc": "Creation of an app to help learning a new language using Google's Vertex AI models.",
+
+    "iapauTimelineTitle": "IA Pau Data Battle 2023",
+    "iapauTimelineDesc": "Processing and creation of a database for extracting data from files via AI.",
+
+    "sove2023TimelineTitle": "Summer internship at SOVE",
+    "sove2023TimelineDesc": "Installation of solar panels in ground-mounted photovoltaic power plants.",
+
+    "sove2022TimelineTitle": "Summer internship at SOVE",
+    "sove2022TimelineDesc": "Installation of solar panels in ground-mounted and roof-mounted photovoltaic power plants.",
+
+    "sove2021TimelineTitle": "Summer internship at SOVE",
+    "sove2021TimelineDesc": "Installation of solar panels in ground-mounted photovoltaic power plants.",
+
+    "nthuTimelineTitle": "Summer internship in a neuro-engineering laboratory at National Tsing Hua University",
+    "nthuTimelineDesc": "Developed AI models to detect diseases such as RBD and Parkinson's disease in a 4-month summer internship. The principle relies on artifact detection in EEG, EMG and ECG channels.",    
+
+    "enseirbTimelineTitle": "Student in computer science at ENSEIRB-MATMECA (class of 2025)",
+    "enseirbTimelineDesc": "Following computer science course with a specialisation in High-Performance Computing in a Graduate Engineering School.",
+
+    "sdcsTimelineTitle": "AI captcha solver in Python",
+    "sdcsTimelineDesc": "A neural network written in Python made from scratch to solve captchas composed of digits.",
+
+    "cpgeTimelineTitle": "Preparation for selective entrance examination to French engineering schools (CPGE) (2020-2022)",
+    "cpgeTimelineDesc": "Intensive math and physics course to prepare for nation-wide examination.",
+
+    "bacTimelineTitle": "Baccalauréat Scientifique (Science Track) with highest honors",
+    "bacTimelineDesc": "Obtained the Baccalauréat Scientifique (Science Track) with highest honors in 2020 at international François 1er High School (Fontainebleau)."
+
+
 }

@@ -11,14 +11,12 @@
 
 body {
     color: #ececec;
-    /* Text color */
     background-color: #313338;
 }
 
 /* Navigation bar */
 
 .navbar {
-    /*background-color: #333;*/
     display: flex;
     justify-content: center;
     padding: 0.75rem 0;
@@ -29,7 +27,6 @@ body {
     text-decoration: none;
     padding: 0.75rem 1.25rem;
     margin: 0 0.625rem;
-    /* horizontal spacing */
     border-radius: 0.5rem;
     transition: background-color 0.3s;
     font-size: 1rem;
@@ -68,4 +65,233 @@ html {
 
 .title {
     text-align: center;
+}
+
+/* Table of content */
+#toc {
+    width: 250px;
+    /*position: sticky;*/
+    top: 1rem;
+    padding: 1rem;
+    border: 3px solid #787878;
+}
+
+#toc h2 {
+    font-size: 1.2em;
+    margin-bottom: 0.5rem;
+}
+
+#toc-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+#toc-list li {
+    margin: 0.3em 0;
+}
+
+#toc-list a {
+    text-decoration: none;
+    color: #007acc;
+}
+
+#toc-list a:hover {
+    text-decoration: underline;
+}
+
+/* Timeline */
+#timeline {
+    position: relative;
+    margin: 2em auto;
+    width: 90%;
+    max-width: 800px;
+    padding-left: 2em;
+}
+
+/* Arrow */
+.timeline-arrow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* Align the arrow to the left of the timeline */
+    width: 4px;
+    height: 100%;
+    background: black;
+    border-radius: 2px;
+}
+
+/* Arrow head */
+.timeline-arrow::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -7px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 12px solid black;
+}
+
+/* Event wrapper */
+/*.timeline-event {
+    position: relative;
+    margin: 2em 0;
+    padding-left: 2.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}*/
+
+.timeline-event {
+    position: relative;
+    margin: 2em 0;
+    padding-left: 2.5em;
+    display: flex;
+    align-items: center;
+    /* Align the items (icon and content) horizontally */
+    justify-content: flex-start;
+    /* Align to the left */
+}
+
+/* Theme-based dot */
+.timeline-event::before {
+    content: '';
+    position: absolute;
+    left: 0.6em;
+    top: 0.75em;
+    width: 12px;
+    height: 12px;
+    background-color: var(--theme-color);
+    /* This applies the theme color */
+    border-radius: 50%;
+    z-index: 2;
+}
+
+/* Theme classes - define the colors */
+.theme-work {
+    --theme-color: #007acc;
+    /* Blue */
+}
+
+.theme-education {
+    --theme-color: #28a745;
+    /* Green */
+}
+
+.theme-personal {
+    --theme-color: #f39c12;
+    /* Yellow */
+}
+
+/* Event content */
+/*.event-content {
+    border-left: 4px solid var(--theme-color);
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex-grow: 1;
+}*/
+
+.event-content {
+    border-left: 4px solid var(--theme-color);
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #7C7BA0;
+    color: #000000;
+}
+
+/* Event icon styling */
+/*.event-icon {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}*/
+
+/*.event-icon {
+    font-size: 2em;
+    margin-right: 1em;
+    flex-shrink: 0;
+}*/
+
+/*.event-icon {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    margin-right: 1em;
+}*/
+
+.event-thumbnail img {
+    /*width: 60px;*/
+    /* Adjust this size based on your needs */
+    height: 60px;
+    /* Keep it square for consistency */
+    object-fit: cover;
+    /* Ensure the image fits within the defined width and height */
+    /*border-radius: 50%;*/
+}
+
+/* Event links styling */
+.event-links a {
+    margin-right: 0.5em;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+/* Apply color to event content for each theme */
+.theme-work .event-content {
+    border-color: #007acc;
+}
+
+.theme-education .event-content {
+    border-color: #28a745;
+}
+
+.theme-personal .event-content {
+    border-color: #f39c12;
+}
+
+/* Year markers */
+.timeline-year {
+    width: 4em;
+    text-align: right;
+    margin-right: 1em;
+    font-weight: bold;
+    color: #b0b0b0;
+    position: relative;
+    top: 0.4em;
+}
+
+.filter-button {
+    background-color: #4d6c96;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+}
+
+#filter-work {
+    background-color: #007acc;
+}
+
+#filter-education {
+    background-color: #28a745;
+}
+
+#filter-personal {
+    background-color: #f39c12;
+}
+
+.link-icon {
+    /*width: 48px;*/
+    height: 48px;
+    object-fit: contain;
+    margin-right: 0.5em;
+}
+
+#inria-event {
+    background-color: #fff;
 }

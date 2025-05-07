@@ -1,6 +1,64 @@
 {
     "menuHome": "Accueil",
     "menuGames": "Jeux",
-    "menuContact": "Contact",
-    "title": "Bienvenue sur ma page personnelle."
+    "menuTools": "Outils",
+    "title": "Bienvenue sur ma page personnelle.",
+    "tocTitle": "Sommaire",
+
+    "section-0": "Chronologie",
+    "section-1": "Contact",
+
+    "filter-all": "Tout",
+    "filter-work": "Emploi",
+    "filter-education": "Académique",
+    "filter-personal": "Personnel",
+    "filter-ai": "IA",
+    "filter-hpc": "CHP (Calcul Haute Performance)",
+
+    "now": "Maintenant",
+
+    "asahiTimelineTitle": "Contribution à la documentation d'Asahi linux (2025-Maintenant)",
+    "asahiTimelineDesc": "Vérification des articles de la documentation, corrections.",
+
+    "inriaTimelineTitle": "Stage, projet de fin d'études à l'Inria",
+    "inriaTimelineDesc": "Etude du modèle inverse de l'apparence d'empilements de couches minces avec des modèles Transformers.",
+
+    "hpcprojectTimelineTitle": "Projet de multiplication de matrices et factorisation LU haute performance : Vectorisée, multicœur, distribuée et accélérée par GPU",
+    "hpcprojectTimelineDesc": "Optimisation des noyaux HPC pour la multiplication matricielle double précision dense en mémoire (DGEMM) et la factorisation LU (DGETRF). Les optimisations ont été réalisées à plusieurs niveaux. Vectorisation avec les instructions AVX2 et FMA, multicœur avec OpenMP, calcul distribué avec MPI et accélération GPU avec CUDA.",
+
+    "visualgoTimelineTitle": "Visualgo, un visuliseur pas-à-pas d'algorithmes Python",
+    "visualgoTimelineDesc": "Application web qui exécute du code Python pas à pas avec une visualisation des structures de données (listes chaînées, tableaux, variables, arbres, ...) pour enseigner le Python.",
+
+    "gccTimelineTitle": "Coordinateur d'événements chez GCC (Game Creation Club de l'Enseirb-Matmeca)",
+    "gccTimelineDesc": "Responsable des événements de l'année scolaire 2022-2023, aide à la formation sur des moteurs de jeu (Godot, Unity, Unreal Engine).",
+
+    "lablabTimelineTitle": "Hackathon Lablab Vertex AI",
+    "lablabTimelineDesc": "Création d'une application pour aider à l'apprentissage d'une nouvelle langue en utilisant les modèles Vertex AI de Google.",
+
+    "iapauTimelineTitle": "IA Pau Data Battle 2023",
+    "iapauTimelineDesc": "Traitement et création d'une base de données pour l'extraction de données de fichiers via IA.",
+
+    "sove2023TimelineTitle": "Stage d'été chez SOVE",
+    "sove2023TimelineDesc": "Câblage de panneaux solaires dans des centrales photovoltaïques au sol.",
+
+    "sove2022TimelineTitle": "Stage d'été chez SOVE",
+    "sove2022TimelineDesc": "Câblage de panneaux solaires dans des centrales photovoltaïques au sol et sur toiture.",
+
+    "sove2021TimelineTitle": "Stage d'été chez SOVE",
+    "sove2021TimelineDesc": "Câblage de panneaux solaires dans des centrales photovoltaïques au sol.",
+
+    "nthuTimelineTitle": "Stage d'été dans un laboratoire au National Tsing Hua University",
+    "nthuTimelineDesc": "Créations de modèles d'intelligence artificielle pour la détection du TCSP et de la maladie de Parkinson. Utilisation des canaux EEG, EMG et ECG pour la reconnaissance de motifs.",
+
+    "enseirbTimelineTitle": "Étudiant en informatique à l'ENSEIRB-MATMECA (promotion 2025)",
+    "enseirbTimelineDesc": "Cursus informatique avec une spécialisation en Calcul Intensif et Science des Données.",
+
+    "sdcsTimelineTitle": "Solveur de captcha en Python",
+    "sdcsTimelineDesc": "Un réseau de neurones écrit en Python fait à partir de zéro pour résoudre des captchas composés de chiffres.",
+
+    "cpgeTimelineTitle": "CPGE MPSI-MP (2020-2022)",
+    "cpgeTimelineDesc": "Programme intensif en mathématiques et physique destiné à préparer les étudiants aux concours nationaux pour intégrer une école d'ingénieurs.",
+
+    "bacTimelineTitle": "Baccalauréat Scientifique mention Très bien",
+    "bacTimelineDesc": "Obtention du baccalauréat scientifique avec mention très bien en 2020 au lycée international François 1er (Fontainebleau)."
 }
