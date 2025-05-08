@@ -18,6 +18,7 @@ async function updateText(lang) {
     localStorage.setItem("lang", lang);
 
     generateTOC();
+    copyButton.textContent = originalText[currentLang]
 }
 
 toggleButton.addEventListener("click", () => {

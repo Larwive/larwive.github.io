@@ -4,54 +4,69 @@
 <html>
 
 <head>
-    <title>HTML Test File</title>
+    <title id="homeTitle"></title>
 </head>
 
 <body>
-    <nav class="navbar">
-        <a href="#" class="nav-button" id="menuHome">Home</a>
-        <a href="games.html" class="nav-button" id="menuGames">Games</a>
-        <a href="tools.html" class="nav-button" id="menuTools">Tools</a>
-    </nav>
+    <div class="container">
+        <nav class="navbar">
+            <a href="#" class="nav-button" id="menuHome">Home</a>
+            <a href="games.html" class="nav-button" id="menuGames">Games</a>
+            <a href="tools.html" class="nav-button" id="menuTools">Tools</a>
+        </nav>
 
-    <div class="nav-right">
-        <button id="lang-toggle">EN</button>
+        <div class="nav-right">
+            <button id="lang-toggle">EN</button>
+        </div>
+
+        <h1 id="title" class="title"></h1>
+        <h3 id="description"></h3>
+
+        <nav id="toc">
+            <h2 id="tocTitle"></h2>
+            <ul id="toc-list"></ul>
+        </nav>
+
+        <section id="homeSection">
+
+
+            <h1 id="section-0" class="cv"></h1>
+
+            <div id="timeline-filters">
+                <button data-filter="all" id="filter-all" class="filter-button active"></button>
+                <button data-filter="work" id="filter-work" class="filter-button"></button>
+                <button data-filter="education" id="filter-education" class="filter-button"></button>
+                <button data-filter="personal" id="filter-personal" class="filter-button"></button>
+                <button data-filter="ai" id="filter-ai" class="filter-button"></button>
+                <button data-filter="hpc" id="filter-hpc" class="filter-button"></button>
+            </div>
+            <div id="timeline">
+                <div class="timeline-arrow"></div>
+            </div>
+
+            <h1 id="section-1" class="cv"></h1>
+
+            <div id="technologies-tools"></div>
+
+
+            <h1 id="section-2" class="contact"></h1>
+            <p id="contactText"></p>
+
+            <div class="contact-buttons">
+                <a class="contact-logo-button" href="https://www.linkedin.com/in/shaokevin"><img class="contact-picture" src="assets/logos/linkedin.svg"></img></a>
+                <a class="contact-logo-button" href="https://github.com/Larwive"><img class="contact-picture" src="assets/logos/github-mark.svg"></img></a>
+                <button class="contact-button" id="copyEmail"></button>
+            </div>
+
+        </section>
+
+
+        <script src="js/timeline.js"></script>
+        <script src="js/techtools.js"></script>
+        <script src="js/lang.js"></script>
+        <script src="js/email.js"></script>
+        <script src="js/toc.js"></script>
     </div>
-
-    <h1 id="title" class="title"></h1>
-
-    <nav id="toc">
-        <h2 id="tocTitle"></h2>
-        <ul id="toc-list"></ul>
-    </nav>
-
-    <section id="homeSection">
-
-
-        <h1 id="section-0" class="cv"></h1>
-
-        <div id="timeline-filters">
-            <button data-filter="all" id="filter-all" class="filter-button active"></button>
-            <button data-filter="work" id="filter-work" class="filter-button"></button>
-            <button data-filter="education" id="filter-education" class="filter-button"></button>
-            <button data-filter="personal" id="filter-personal" class="filter-button"></button>
-            <button data-filter="ai" id="filter-ai" class="filter-button"></button>
-            <button data-filter="hpc" id="filter-hpc" class="filter-button"></button>
-        </div>
-        <div id="timeline">
-            <div class="timeline-arrow"></div>
-        </div>
-
-
-        <h1 id="section-1" class="contact"></h1>
-        <p>Test2</p>
-
-    </section>
-
-
-    <script src="js/timeline.js"></script>
-    <script src="js/lang.js"></script>
-    <script src="js/toc.js"></script>
 </body>
 
 </html>

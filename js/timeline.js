@@ -83,7 +83,7 @@ const events = [{
     links: [],
     id: null
 },
-{
+/*{
     year: "2022",
     themes: ["work"],
     title: "sove2022TimelineTitle",
@@ -91,7 +91,7 @@ const events = [{
     thumbnail: { href: "https://solairevoltenergie.com", src: "assets/logos/sove.svg", title: "SOVE" },
     links: [],
     id: null
-},
+},*/
 {
     year: "2022",
     themes: ["education", "ai", "hpc"],
@@ -112,7 +112,7 @@ const events = [{
     ],
     id: null
 },
-{
+/*{
     year: "2021",
     themes: ["work"],
     title: "sove2021TimelineTitle",
@@ -120,7 +120,7 @@ const events = [{
     thumbnail: { href: "https://solairevoltenergie.com", src: "assets/logos/sove.svg", title: "SOVE" },
     links: [],
     id: null
-},
+},*/
 {
     year: "2020",
     themes: ["education"],

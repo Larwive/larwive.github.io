@@ -1,12 +1,18 @@
 {
+    "homeTitle": "Home - Larwive",
+    "gamesTitle": "Games - Larwive",
+    "toolsTitle": "Tools - Larwive",
+
     "menuHome": "Home",
     "menuGames": "Games",
     "menuTools": "Tools",
     "title": "Welcome to my page.",
+    "description":"I'm a computer science engineering student currently studying at Enseirb-Matmeca. I focus on optimizing the efficiency of my programs and have a strong interest in low-level development, GPUs, performance optimization, and AI. Thanks to my solid background in mathematics, I'm also drawn to cryptography, game theory, and theoretical computer science.",
     "tocTitle": "Table of content",
 
     "section-0": "Timeline",
-    "section-1": "Contact",
+    "section-1": "Technologies and tools",
+    "section-2": "Contact",
 
     "filter-all": "All",
     "filter-work": "Work",
@@ -60,7 +66,12 @@
     "cpgeTimelineDesc": "Intensive math and physics course to prepare for nation-wide examination.",
 
     "bacTimelineTitle": "Baccalauréat Scientifique (Science Track) with highest honors",
-    "bacTimelineDesc": "Obtained the Baccalauréat Scientifique (Science Track) with highest honors in 2020 at international François 1er High School (Fontainebleau)."
+    "bacTimelineDesc": "Obtained the Baccalauréat Scientifique (Science Track) with highest honors in 2020 at international François 1er High School (Fontainebleau).",
 
 
+    "proglangTitle": "Main programming languages",
+    "frameworkTitle": "Main frameworks and libraries",
+    "softenginesTitle": "Main softwares and engines",
+
+    "contactText": "Feel free to contact me using these media."
 }

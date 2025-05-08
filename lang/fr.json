@@ -1,12 +1,18 @@
 {
+    "homeTitle": "Accueil - Larwive",
+    "gamesTitle": "Jeux - Larwive",
+    "toolsTitle": "Outils - Larwive",
+
     "menuHome": "Accueil",
     "menuGames": "Jeux",
     "menuTools": "Outils",
     "title": "Bienvenue sur ma page personnelle.",
+    "description": "Je suis étudiant en génie informatique et j'étudie actuellement à l'Enseirb-matmeca. Je me concentre sur l'optimisation de l'efficacité de mes programmes et j'ai un fort intérêt pour le développement de bas niveau, les GPU, l'optimisation des performances et l'IA. Grâce à ma solide formation en mathématiques, je suis également attiré par la cryptographie, la théorie des jeux et l'informatique théorique.",
     "tocTitle": "Sommaire",
 
     "section-0": "Chronologie",
-    "section-1": "Contact",
+    "section-1": "Technologies et outils",
+    "section-2": "Contact",
 
     "filter-all": "Tout",
     "filter-work": "Emploi",
@@ -60,5 +66,11 @@
     "cpgeTimelineDesc": "Programme intensif en mathématiques et physique destiné à préparer les étudiants aux concours nationaux pour intégrer une école d'ingénieurs.",
 
     "bacTimelineTitle": "Baccalauréat Scientifique mention Très bien",
-    "bacTimelineDesc": "Obtention du baccalauréat scientifique avec mention très bien en 2020 au lycée international François 1er (Fontainebleau)."
+    "bacTimelineDesc": "Obtention du baccalauréat scientifique avec mention très bien en 2020 au lycée international François 1er (Fontainebleau).",
+
+    "proglangTitle": "Principaux languages de programmation",
+    "frameworkTitle": "Principaux frameworks et librairies",
+    "softenginesTitle": "Principaux softwares et moteurs",
+
+    "contactText": "Vous pouvez me contacter par mail"
 }
